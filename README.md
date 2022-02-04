@@ -9,7 +9,7 @@ This repository contains code for two applications that make use of the neural n
 
 ## Try the Manual Poser on Google Colab
 
-If you do not have the required hardware (discussed below) or do not want to download the code and set up an environment to run it, click [![this link](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pkhungurn/talking-head-anime-demo/blob/master/tha_colab.ipynb) to try running the manual poser on [Google Colab](https://research.google.com/colaboratory/faq.html).
+If you do not have the required hardware (discussed below) or do not want to download the code and set up an environment to run it, click [![this link](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sashank-05/emotion-bot/tha_colab.ipynb) to try running the manual poser on [Google Colab](https://research.google.com/colaboratory/faq.html).
 
 ## Hardware Requirements
 
@@ -86,10 +86,4 @@ To run the puppeteer, issue the following command in your shell:
 
 > `python app/puppeteer.py`
 
-## Disclaimer
 
-While the author is an employee of Google Japan, this software is not Google's product and is not supported by Google.
-
-The copyright of this software belongs to me as I have requested it using the <a href="https://opensource.google/docs/iarc/">IARC process</a>. However, one of the condition for the release of this source code is that the publication of the "Talking Head Anime from a Single Image" be approved by the internal publication approval process. I requested approval on 2019/11/17. It has been reviewed by a researcher, but has not been formally approved by a manager in my product area (Google Maps). I have decided to release this code, bearing all the risks that it may incur.
-
-I made use of [a face tracker code implemented by KwanHua Lee](https://github.com/lincolnhard/head-pose-estimation) to implement the puppeteer tool.
